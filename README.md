@@ -1,5 +1,8 @@
 # Python 学习笔记
 
+### 学习资源
+[菜鸟教程](https://www.runoob.com/python3/python3-tutorial.html)
+
 #### 查看python版本
 打开cmd输入命令：`python -V` 或者 `python --version`
 
