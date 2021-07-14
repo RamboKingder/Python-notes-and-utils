@@ -36,6 +36,14 @@
 
 `sys.argv` 如果是在cmd执行脚本，例如`python main.py arg1 arg2`那么`sys.argv`会捕获参数
 
+### 将文件夹变成模块
+在文件夹下添加一个空的__init__.py文件即可将文件夹变成一个python模块
+
+例如：在widgets文件夹下有__init__.py和mainwindow.py
+
+就可以使用`from widgets.mainwindow import MainWindow`了
+
+
 ## Python程序打包成EXE可执行程序
 `pip install pyinstaller`先用pip命令安装这个必要的包
 
