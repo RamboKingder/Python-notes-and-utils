@@ -35,3 +35,12 @@
 `glob.glob("*.py")` 会返回指定路径中匹配的文件
 
 `sys.argv` 如果是在cmd执行脚本，例如`python main.py arg1 arg2`那么`sys.argv`会捕获参数
+
+## Python程序打包成EXE可执行程序
+`pip install pyinstaller`先用pip命令安装这个必要的包
+
+`pyinstaller -F -w test.py`就会在dist目录下生成一个可执行程序
+
+-F 表示生成单一可执行文件 -w 表示程序运行时不显示命令窗口
+
+![](images/pyinstaller.PNG)
