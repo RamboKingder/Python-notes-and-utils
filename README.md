@@ -43,4 +43,5 @@
 
 -F 表示生成单一可执行文件 -w 表示程序运行时不显示命令窗口
 
-![](images/pyinstaller.PNG)
+![](/images/pyinstaller.PNG)
+
