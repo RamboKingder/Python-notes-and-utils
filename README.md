@@ -50,6 +50,3 @@
 `pyinstaller -F -w test.py`就会在dist目录下生成一个可执行程序
 
 -F 表示生成单一可执行文件 -w 表示程序运行时不显示命令窗口
-
-![](https://github.com/RamboKingder/Python-notes-and-utils/blob/main/images/pyinstaller.PNG)
-
